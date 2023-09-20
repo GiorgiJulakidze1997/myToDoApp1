@@ -1,0 +1,253 @@
+
+
+.infoContainer {
+    width: 327px;
+    position: absolute;
+    top: 50px;
+}
+
+.headerTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lightModeButtonMoon {
+    border: none;
+    background: url('../../images/icon-moon.svg') no-repeat ;
+    padding: 0px 14px;
+}
+
+.darkModeButtonSun {
+    border: none;
+    background: url('../../images/icon-sun.svg') no-repeat;
+    padding: 0px 14px;
+}
+
+.Title {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+ 
+    
+}
+
+.inputsBox {
+    align-items: center;
+    display: flex;
+    height: 48px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px ;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+
+.checkBox {
+    height: 1.7rem;
+    width: 1.7rem;
+    border-radius: 50%;
+    appearance: none;
+    border: 0.01rem solid silver;
+    outline: none;
+}
+
+.checkBox:hover {
+    cursor: pointer;
+}
+
+.checkBox:checked {
+    background: url('../../images/icon-check.svg') center center no-repeat, 
+    linear-gradient(135deg, #55DDFF 0%, #C058F3 100%);
+    
+    
+}
+
+
+.mainInputTextBox {   
+    padding: 13px 20px;
+    border: none;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    
+    color: #393A4B;
+    outline: none;
+    
+}
+
+
+
+
+.checkBoxTextAndDeleteBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    /* height: 48px; */
+    border-radius: 5px;
+    border-bottom: 1px solid #E3E4F1;
+    padding-right: 20px;
+    /* overflow-y: auto; */
+    overflow: hidden;
+}
+
+.checkBoxAndTextBox {
+    display: flex;
+    align-items: center;
+}
+
+.newTaskTextClass {
+    width: 230px;
+    padding-left: 20px;
+    padding-right: 10px;
+    flex-grow: 1;
+    
+    white-space: normal;
+    overflow-wrap: break-word;
+    /* როცა დიდი ტექსტია და არ გინდა რომ საზღვრები გადაკვეთოს 
+    და ქვემოთ ჩამოიტანოს ახალ აბზაცზე, აბზცებად ჩაშალოს
+    ვიყენებთ overflow-wrap-ს და white-space-ს */
+
+
+    /* flex-wrap: wrap; */
+    /* word-break: break-all; */
+    /* margin-right: 5px; */
+    /* text-overflow: ellipsis; */
+    /* როცა overflow-ს აკეთებ, რაც გასცდება საზღვრებს, იმას აღარ აჩენს
+    ხოლო, როდესაც text-overflow: ellipsis; დაუწერ, ამ დროს
+    სამ წერტილს წერს ბოლოში, როცა ტექსტი დიდია
+    მაგ: 11111111111111111... (და ასე ამთავრებს) */
+}
+
+.crossImage {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.crossImageDark {
+    background-color: #393A4B;
+}
+
+.delete {
+    /* background: url('../../images/icon-cross.svg')  no-repeat, #494C6B ; */
+    color: #494C6B;
+    /* background-color: white; */
+    border: none;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+.itemsLeftBox {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemsLeftText {
+    color: #9495A5;
+    /* background-color: white; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.1944444477558136px;
+}
+.footerButtons {
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+}
+
+.footerButtonInsideBox {
+    width: 166px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.buttonText {
+    text-decoration: none;
+    color: #9495A5;
+    border: none;
+    background-color: white;
+    outline: none;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.1944444477558136px;
+    text-align: left;
+}
+
+.buttonText:hover {
+    cursor: pointer;
+    color: #494C6B;
+}
+
+.buttonTextActiveStatus {
+    color: #3A7CFD;
+}
+
+
+.inputsBoxDark {
+    background-color: rgba(37, 39, 61, 1);
+    /* color: #C8CBE7; */
+}
+
+.darkModeText {
+    color: rgba(118, 121, 146, 1);
+}
+
+.darkModeText2 {
+    color: rgba(200, 203, 231, 1);
+}
+
+.colorsP {
+    color: #494C6B;
+  }
+
+.colorsActP {
+    color: #D1D2DA;
+}
+
+.colorsNoActP {
+    color: #4D5067;
+}
+  
+  .colorsPDark {
+    color: #C8CBE7;
+  }
+
+/* Desktop version  */
+@media screen and (min-width: 767px) {
+    .infoContainer {
+        width: 541px;
+    }
+    
+    
+}

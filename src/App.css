@@ -1,0 +1,32 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAFA;
+  overflow-x: hidden;
+  
+
+}
+
+.AppDark {
+  background-color: rgba(23, 24, 35, 1);
+  
+}
+
+
+
+.checkboxAndTextBox {
+  display: flex;
+
+}
+
+.textActive {
+  text-decoration: line-through;
+  
+  /* color: black; */
+}
+
+.textNoActive {
+  /* color: red; */
+  text-decoration: solid;
+}
